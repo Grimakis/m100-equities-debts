@@ -5,6 +5,9 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: write
+
 jobs:
   release:
     uses: Grimakis/m100-release-workflow/.github/workflows/release.yml@v1

@@ -18,14 +18,14 @@ jobs:
 
       - name: Verify release tag matches source version
         run: |
-          SRC_VERSION=$(grep -m1 -oE 'VER\$="v?[0-9]+\.[0-9]+\.[0-9]+"' SBONDS.DO | sed 's/.*"\(.*\)".*/\1/')
+          SRC_VERSION=$(grep -m1 -oE 'VER\$="v?[0-9]+\.[0-9]+\.[0-9]+"' EQUITY.DO | sed 's/.*"\(.*\)".*/\1/')
           TAG_VERSION=${GITHUB_REF#refs/tags/}
           TAG_VERSION=${TAG_VERSION#v}
           SRC_VERSION=${SRC_VERSION#v}
           echo "Source version: $SRC_VERSION"
           echo "Tag version:    $TAG_VERSION"
           if [ "$SRC_VERSION" != "$TAG_VERSION" ]; then
-            echo "Version mismatch: release tag must match SBONDS.DO"
+            echo "Version mismatch: release tag must match EQUITY.DO"
             exit 1
           fi
 
@@ -44,7 +44,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            dist/ascii_packed/SBONDS.DO
-            dist/tokenized_packed/SBONDS.BA
+            dist/ascii_packed/EQUITY.DO
+            dist/tokenized_packed/EQUITY.BA
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

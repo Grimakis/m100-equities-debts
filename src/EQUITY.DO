@@ -484,51 +484,51 @@
 44900 NA$=INKEY$
 44910 IF NA$="" THEN 44900
 44920 A$="":RETURN
-45000 DATA "Large petroleum corporation offers to   buy all assets for cash. Offer is well above book value. Directors approve and will submit recommendation to stockholders."
-45100 DATA "President hospitalized in sanitorium for an indefinite period."
-45200 DATA "Intensive advertising campaign gains Company three major, long-term contracts."
-45300 DATA "Buying wave raises the market."
-45400 DATA "Company prospectors find huge, new high-grade ore deposits."
-45500 DATA "Experimental nuclear power station proves more economical than anticipated. Three electrical power companies announce plans to build large-scale nuclear power plants."
-45600 DATA "National firm leases Company's largest office building."
-45700 DATA "Company moves to a new excellent location."
-45800 DATA "Surge of profit-taking drops stock market."
-45900 DATA "Competitor invents a new economical automatic transmission."
-46000 DATA "City Council considers the Company's choicest property for large industrial fair."
-46100 DATA "United Auto announces new advanced-design auto entry in the mini-car field."
-46200 DATA "Strikes halt production in all eight United Auto plants as UAW and Company official fail to reach agreement on labor contract."
-46300 DATA "General market rise over the last two months."
-46400 DATA "Company lands ten-year contract with large industrial equipment corporation."
-46500 DATA "Major coal company announces reduced coal prices to electrical power utilities."
-46600 DATA "Foreign car rage hits the buying public. Big cars in slow demand."
-46700 DATA "Three-for-one split rumored."
-46800 DATA "President announces expansion plans to increase productive capacity 30%"
-46900 DATA "Government suddenly announces it will no longer support ore prices, since it has large stockpiles."
-47000 DATA "Corporation releases high profit and sales financial report and announces plans to invest an additional $2 million on special research projects next year."
-47100 DATA "Public Utility Commission rejects Company's request for rate hike."
-47200 DATA "Community steadily deteriorates. The management is forced to lower rental rates to attract tenants."
-47300 DATA "President, Vice-President and Chief Counsel of Growth Corporation of America reach retirement age."
-47400 DATA "Influx of personnel of new company in nearby town creates a severe housing shortage."
-47500 DATA "Land rights litigation holds up progress."
-47600 DATA "Urban Renewal Program delayed by indecision of City Planning Commission."
-47700 DATA "Internal Revenue depletion allowance re-duced 50%."
-47800 DATA "Large terminal destroyed by fire; in-sufficient insurance on building due to Company's delayed move to new location."
-47900 DATA "Company's Annual Report shows net earnings off during fourth quarter."
-48000 DATA "Corporation announces new metal forming process which it claims will revolutionize all metal-working industries covered by U.S. and foreign patents."
-48100 DATA "Two founders and major stockholders of the Corporation disagree on policy. One sells out his entire stockholdings."
-48200 DATA "War scare promotes mixed activity on Wall Street."
-48300 DATA "Commission grants permission to construct a new nuclear generating of greater capacity and efficiency."
-48400 DATA "Corporation unexpectedly relinquishes its monopoly on its major product after a lengthy anti-trust suit."
-48500 DATA "Extra year-end dividend of $2 per share declared by the Board of Directors."
-48600 SN$(1)="CE":FN$(1)="CC Municipal Bonds":DV%(1)=5:REM INIT STOCKS
-48700 SN$(2)="GR":FN$(2)="Growth Corp":DV%(2)=1
-48800 SN$(3)="ME":FN$(3)="Metro Properties":DV%(3)=0
-48900 SN$(4)="PI":FN$(4)="Pioneer Mutual":DV%(4)=4
-49000 SN$(5)="SH":FN$(5)="Shady Brooks":DV%(5)=7
-49100 SN$(6)="ST":FN$(6)="Stryker Drilling":DV%(6)=0
-49200 SN$(7)="TR":FN$(7)="Tri-City Transport":DV%(7)=0
-49300 SN$(8)="UN":FN$(8)="United Auto":DV%(8)=2
-49400 SN$(9)="UR":FN$(9)="Uranium Enterprises":DV%(9)=6
-49500 SN$(10)="VA":FN$(10)="Valley Power":DV%(10)=3
+45000 DATA "Oil firm bids cash; board backs sale"
+45100 DATA "President hospitalized; leave unknown"
+45200 DATA "Ad blitz wins 3 major long contracts"
+45300 DATA "Buying wave lifts broad market"
+45400 DATA "Prospectors strike rich new ore field"
+45500 DATA "Test nuclear plant beats cost forecasts"
+45600 DATA "National tenant leases top office tower"
+45700 DATA "Company relocates to prime site"
+45800 DATA "Profit-taking wave pushes market down"
+45900 DATA "Rival debuts low-cost auto gearbox"
+46000 DATA "City eyes best tract for big fair"
+46100 DATA "National Auto unveils new mini-car"
+46200 DATA "Strikes shut 8 National Auto plants"
+46300 DATA "Market rises steadily for 2 months"
+46400 DATA "Company wins 10-year supply contract"
+46500 DATA "Coal prices cut for power utilities"
+46600 DATA "Import-car craze slows big-car sales"
+46700 DATA "Three-for-one split rumor spreads"
+46800 DATA "Expansion plan: capacity up 30 percent"
+46900 DATA "Govt ends ore price supports; glut"
+47000 DATA "Strong report; $2M set for research"
+47100 DATA "Utility board rejects rate hike bid"
+47200 DATA "Area declines; rents cut to fill units"
+47300 DATA "Upward Incorporated top officers retire"
+47400 DATA "New jobs nearby spark housing shortage"
+47500 DATA "Land-rights suit delays development"
+47600 DATA "City renewal stalled by planners"
+47700 DATA "Depletion tax allowance cut 50 percent"
+47800 DATA "Terminal fire; insurance falls short"
+47900 DATA "Annual report: Q4 earnings weaken"
+48000 DATA "Patented metal process touted as key"
+48100 DATA "Founder feud; one sells entire stake"
+48200 DATA "War scare drives mixed Wall Street"
+48300 DATA "Permit granted for larger nuclear unit"
+48400 DATA "Antitrust ruling ends product monopoly"
+48500 DATA "Board declares extra $2 dividend"
+48600 SN$(1)="CY":FN$(1)="County Bonds":DV%(1)=5
+48700 SN$(2)="UI":FN$(2)="Upward Incorporated":DV%(2)=1
+48800 SN$(3)="CL":FN$(3)="Cityline Properties":DV%(3)=0
+48900 SN$(4)="KM":FN$(4)="Keystone Mutual":DV%(4)=4
+49000 SN$(5)="SC":FN$(5)="Shadow Creek":DV%(5)=7
+49100 SN$(6)="LD":FN$(6)="Longshot Drilling":DV%(6)=0
+49200 SN$(7)="CT":FN$(7)="Crosstown Transit":DV%(7)=0
+49300 SN$(8)="NA":FN$(8)="National Auto":DV%(8)=2
+49400 SN$(9)="YM":FN$(9)="Yellowcake Mining":DV%(9)=6
+49500 SN$(10)="SP":FN$(10)="Summit Power":DV%(10)=3
 49600 FOR S%=1 TO 10:SP%(S%)=100:PL%(S%)=100:NEXT S%
 49700 RETURN

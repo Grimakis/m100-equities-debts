@@ -18,7 +18,7 @@ jobs:
 
       - name: Verify release tag matches source version
         run: |
-          SRC_VERSION=$(grep -m1 -oE 'VER\$="v?[0-9]+\.[0-9]+\.[0-9]+"' EQUITY.DO | sed 's/.*"\(.*\)".*/\1/')
+          SRC_VERSION=$(grep -m1 -oE 'VER\$="v?[0-9]+\.[0-9]+\.[0-9]+"' src/EQUITY.DO | sed 's/.*"\(.*\)".*/\1/')
           TAG_VERSION=${GITHUB_REF#refs/tags/}
           TAG_VERSION=${TAG_VERSION#v}
           SRC_VERSION=${SRC_VERSION#v}

@@ -1,4 +1,4 @@
-# STOCKS & BONDS (TRS-80 Model 100)
+# EQUITIES & DEBTS (TRS-80 Model 100)
 
 This is a faithful tribute to the 1964 3M board game **Stocks & Bonds: The Game of Investments**, built to run on the TRS-80 Model 100 (or the Virtual T emulator). Play with 1–4 people, manage a portfolio of 10 companies, and see who builds the largest net worth after 10 years of dice-ruled markets.
 

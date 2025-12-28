@@ -1,4 +1,5 @@
 100 REM EQUITIES & DEBTS - TRS-80 M100 VERSION
+200 VE$="v0.2.0"
 300 REM Optimized for 32KB RAM, 40-column display
 400 DIM PS$(4),P%(4,10),C!(4),SN$(10),FN$(10),SP%(10),PL%(10),DI%(10)
 500 DIM DV%(10),PH%(10,10),SX%(10),SZ%(10)

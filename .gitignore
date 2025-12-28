@@ -1,0 +1,4 @@
+*.BA
+.DS_Store
+.mcp*
+data/

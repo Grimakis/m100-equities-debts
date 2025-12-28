@@ -1,4 +1,4 @@
-name: Build and Release SBONDS Artifacts
+name: Build and Release EQUITY Artifacts
 
 on:
   release:
